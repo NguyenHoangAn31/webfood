@@ -1,10 +1,10 @@
 
 {
    "foodList" : [
-    {"img":"/Mycode/AngularJS/pho.jpg","name": "Phở", "price": 40000 ,"numberfood":1,"button":"Thêm Vào Giỏ"},
-    {"img":"/Mycode/AngularJS/bunbohue.jpg","name": "Bún Bò Huế", "price": 35000 ,"numberfood":1,"button":"Thêm Vào Giỏ"},
-    {"img":"/Mycode/AngularJS/myquang.jpg","name": "Mỳ Quảng", "price": 30000,"numberfood":1,"button":"Thêm Vào Giỏ" },
-    {"img":"/Mycode/AngularJS/banhmi.jpg","name": "Bánh Mì", "price": 10000,"numberfood":1,"button":"Thêm Vào Giỏ"}
+    {"img":"IMG header/pho.jpg","name": "Phở", "price": 40000 ,"numberfood":1,"button":"Thêm Vào Giỏ"},
+    {"img":"IMG header/bunbohue.jpg","name": "Bún Bò Huế", "price": 35000 ,"numberfood":1,"button":"Thêm Vào Giỏ"},
+    {"img":"IMG header/myquang.jpg","name": "Mỳ Quảng", "price": 30000,"numberfood":1,"button":"Thêm Vào Giỏ" },
+    {"img":"IMG header/banhmi.jpg","name": "Bánh Mì", "price": 10000,"numberfood":1,"button":"Thêm Vào Giỏ"}
 ]
 }
 
