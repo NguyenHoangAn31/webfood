@@ -1,10 +1,10 @@
 
 {
     "fileao" : [
-     {"img1":"IMG header/pho.jpg","name1": "Phở", "price1": 40000 ,"numberfood1":1},
-     {"img1":"IMG header/bunbohue.jpg","name1": "Bún Bò Huế", "price1": 35000 ,"numberfood1":1},
-     {"img1":"IMG header/myquang.jpg","name1": "Mỳ Quảng", "price1": 30000,"numberfood1":1 },
-     {"img1":"IMG header/banhmi.jpg","name1": "Bánh Mì", "price1": 10000,"numberfood1":1 }
+     {"img1":"IMGheader/pho.jpg","name1": "Phở", "price1": 40000 ,"numberfood1":1},
+     {"img1":"IMGheader/bunbohue.jpg","name1": "Bún Bò Huế", "price1": 35000 ,"numberfood1":1},
+     {"img1":"IMGheader/myquang.jpg","name1": "Mỳ Quảng", "price1": 30000,"numberfood1":1 },
+     {"img1":"IMGheader/banhmi.jpg","name1": "Bánh Mì", "price1": 10000,"numberfood1":1 }
  ]
  }
  
