@@ -1,0 +1,18 @@
+<div class="col-8 col-s-10 col-s-s-11 food" ng-controller="myCtrl2">
+    <table>
+        <caption>
+            <h1>Danh Sách Món Ăn</h1>
+        </caption>
+        <tr>
+            <th colspan="2">Hình Ảnh Và Tên Món Ăn</th>
+
+            <th colspan="2">Giá</th>
+        </tr>
+        <tr ng-repeat="food in list|filter:search">
+            <td><img src="{{food.img}}" alt=""></td>
+            <td>{{food.name}}</td>
+            <td style="color: red;">{{food.price|number}} VNĐ</td>
+            <td style="padding:0"><input class="button add" value="{{food.button}}" type="button" id="{{food.name}}" ng-click="addpay($index,food.name)"></td>
+        </tr>
+    </table>
+</div>

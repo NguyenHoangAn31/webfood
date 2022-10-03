@@ -1,0 +1,11 @@
+
+{
+    "fileao" : [
+     {"img1":"/Mycode/AngularJS/pho.jpg","name1": "Phở", "price1": 40000 ,"numberfood1":1},
+     {"img1":"/Mycode/AngularJS/bunbohue.jpg","name1": "Bún Bò Huế", "price1": 35000 ,"numberfood1":1},
+     {"img1":"/Mycode/AngularJS/myquang.jpg","name1": "Mỳ Quảng", "price1": 30000,"numberfood1":1 },
+     {"img1":"/Mycode/AngularJS/banhmi.jpg","name1": "Bánh Mì", "price1": 10000,"numberfood1":1 }
+ ]
+ }
+ 
+ 

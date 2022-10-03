@@ -1,0 +1,15 @@
+
+
+<div class="addnewfood" ng-controller="myCtrl1">
+    <form name="myform">
+        <span style="display:block;margin:auto ;width:max-content;font-size: 30px;">Thêm Sản Phẩm</span><br><br>
+        <span>Nguồn Ảnh</span><br>
+        <input type="text" name="myimg" ng-model="myimg" required>  <span class="error" ng-show="myform.myimg.$error.required">ImgSrc is required</span><br>
+        <span>Tên Món Ăn</span><br>
+        <input type="text" name="myname" ng-model="myname" required>  <span class="error" ng-show="myform.myname.$error.required">Name is required</span><br>
+        <span>Giá</span><br>
+        <input style="margin-bottom: 30px;" type="number" name="myprice" ng-model="myprice" required>  <span class="error" ng-show="myform.myprice.$error.required">Price is required</span><br>
+        <button ng-disabled="!(myform.myimg.$valid && myform.myname.$valid && myform.myprice.$valid)" type="submit" ng-click="hamtinh()" >Thêm</button>
+    </form>
+</div>
+    

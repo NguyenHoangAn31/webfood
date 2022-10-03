@@ -1,0 +1,27 @@
+<div class="col-8 col-s-10 col-s-s-11 food pay" ng-controller="myCtrl3">
+    <table>
+        <caption>
+            <h1>Quầy Thanh Toán</h1>
+        </caption>
+        <tr>
+            <th colspan="2">Hình Ảnh Và Tên Món Ăn</th>
+            <th>Giá</th>
+            <th colspan="2">Số Lượng</th>
+        </tr>
+        <tr ng-repeat="list in listpay|filter:search">
+            <td><img src="{{list.img1}}"></td>
+            <td>{{list.name1}}</td>
+            <td style="color: red;">{{list.price1|number}} VNĐ</td>
+            <td style="color: red;"><button ng-click="hamtru($index)" ng-disabled="list.numberfood1==1">-</button>
+                {{list.numberfood1}} <button ng-click="hamcong($index)">+</button></td>
+            <td style="padding: 0;"><input class="button remove" value="Xóa" type="button" ng-click="remove($index)"></td>
+        </tr>
+        <tr>
+            <td colspan="5" style="text-align: right;color: red;">Tổng Hóa Đơn : {{tong|number}} VNĐ <input value="Thanh Toán" type="button"
+                    class="button payed" ng-click="pay()"></td>
+        </tr>
+    
+
+    </table>
+    
+</div>
