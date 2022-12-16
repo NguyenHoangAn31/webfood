@@ -375,7 +375,7 @@
             app.controller("myCtrl1", function ($scope) {
                 $scope.hamtinh = function () {
                     alert("localhot says :\nAdd new food successfully");
-                    var food = { "img": $scope.myimg, "name": $scope.myname, "price": Number($scope.myprice), "numberfood": 1 };
+                    var food = { "img": $scope.myimg, "name": $scope.myname, "price": Number($scope.myprice), "numberfood": 1 ,"button":"Thêm Vào Giỏ"};
                     $scope.list.push(food);
                     var foodao = { "img1": $scope.myimg, "name1": $scope.myname, "price1": Number($scope.myprice), "numberfood1": 1 ,"button":"Thêm Vào Giỏ" };
                     $scope.fileao.push(foodao);
